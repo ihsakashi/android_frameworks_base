@@ -1,0 +1,5 @@
+version: "1"
+rules:
+  - base: quartz
+    upstream: aospa:quartz
+    mergeMethod: rebase
